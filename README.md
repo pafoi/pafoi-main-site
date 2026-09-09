@@ -75,7 +75,7 @@ Edit `styles.css` under `:root` to restyle:
 
 ## Constraints
 
-- No external dependencies, CDNs, or remote assets.
+- No other external dependencies, CDNs, or remote assets .
 - System fonts only (Georgia serif, Inter/system-ui sans-serif).
 - All assets are local SVGs.
 - No real contact details, claims, statistics or partner names.
