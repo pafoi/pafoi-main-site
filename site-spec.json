@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "tenant_id": "pafoi",
+  "interface_id": "pafoi-main-site-v1",
+  "interface_type": "static-site",
+  "template_id": "3is-web-studio-static-template-v0-5",
+  "site": {
+    "name": "PAFOI",
+    "tagline": "A place to share and grow idea seeds into living systems of action."
+  },
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "What We Grow", "href": "#themes" },
+    { "label": "Let\u2019s Placemake", "href": "#placemake" },
+    { "label": "Idea Seeds", "href": "#featured" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "Plant a Forest of Ideas",
+      "heading": "Grow ideas into living systems of action.",
+      "description": "Plant a Forest of Ideas (PAFOI) is a place to share, grow and connect idea seeds through people, conversations, collaborations, stories, projects and places. It is a space where questions, possibilities and early ideas can take root and develop into practical initiatives through shared inquiry and stewardship.",
+      "ctaText": "Explore the idea seeds"
+    },
+    "about": {
+      "heading": "A place for ideas to take root.",
+      "content": "Plant a Forest of Ideas (PAFOI) is a platform for sharing idea seeds and developing them into practical initiatives, stories, collaborations and places. It is a place to bring questions, possibilities and early ideas into conversation, learning, relationship and action.\n\nIdeas become stronger through people, shared inquiry, experiments, stories, projects, local activity and stewardship. PAFOI provides a grounded space where thinking and doing can grow together."
+    },
+    "themes": {
+      "heading": "What we grow together.",
+      "items": [
+        {
+          "icon": "ideas",
+          "title": "Ideas",
+          "description": "Questions, possibilities, stories, frameworks and early seeds that deserve attention, care and development. Every idea starts small — what matters is giving it the right conditions to grow."
+        },
+        {
+          "icon": "people",
+          "title": "People",
+          "description": "Contributors, practitioners, neighbours, collaborators and communities gathered around ideas that matter. Strong ideas need people to carry them forward."
+        },
+        {
+          "icon": "action",
+          "title": "Action",
+          "description": "Turning shared inquiry into experiments, projects, gatherings, stories, places and practical next steps. Ideas become real when they move from thought into practice."
+        }
+      ]
+    },
+    "placemake": {
+      "heading": "Let\u2019s Placemake",
+      "content": "Let\u2019s Placemake is PAFOI\u2019s outreach programme for bringing ideas into shared spaces, conversations and practical local action. It connects thinking with doing — helping ideas move from early possibility into real places, real conversations and real contributions."
+    },
+    "featured": {
+      "heading": "Featured idea seeds",
+      "items": [
+        {
+          "title": "Idea seed in development",
+          "description": "A placeholder for an idea seed currently being explored. Details will be added as the idea develops through conversation and shared inquiry."
+        },
+        {
+          "title": "Conversation to be planted",
+          "description": "A placeholder for a future conversation or gathering. This will emerge when the conditions, people and purpose are clear."
+        },
+        {
+          "title": "Project taking root",
+          "description": "A placeholder for a project in its early stages. This space will hold initiatives that are moving from idea into action through experimentation and stewardship."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Join, collaborate or host.",
+      "description": "Bring an idea, start a conversation, collaborate, contribute, host a gathering or explore a local initiative. Whether you are just starting to think about something or you already have something to share, there is a place for you here.",
+      "buttonText": "Start a conversation"
+    },
+    "footer": {
+      "organisationName": "PAFOI",
+      "email": null,
+      "year": 2026
+    }
+  },
+  "release": {
+    "version": "1.0.0-draft",
+    "status": "draft",
+    "environment": "local-preview",
+    "created": "2026-09-09",
+    "owner": "PAFOI product owner",
+    "template": "3is-static-template-v0-5"
+  },
+  "localPreview": {
+    "note": "This is a draft preview of Plant a Forest of Ideas (PAFOI). Contact details and external links will be added before release."
+  }
+}

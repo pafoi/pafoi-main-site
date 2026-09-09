@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAFOI — Plant a Forest of Ideas</title>
+  <meta name="description" content="Plant a Forest of Ideas (PAFOI) is a platform for sharing and growing idea seeds into practical initiatives, stories, collaborations and places.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="site-brand">
+        <img src="assets/logo-placeholder.svg" alt="" width="32" height="32" aria-hidden="true">
+        <span class="site-title" id="site-title">PAFOI</span>
+      </div>
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul id="nav-links-desktop">
+          <li><a href="#about">About</a></li>
+          <li><a href="#themes">What We Grow</a></li>
+          <li><a href="#placemake">Let's Placemake</a></li>
+          <li><a href="#featured">Idea Seeds</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-panel" id="nav-panel" role="navigation" aria-label="Mobile navigation">
+      <ul id="nav-links-mobile">
+        <li><a href="#about">About</a></li>
+        <li><a href="#themes">What We Grow</a></li>
+        <li><a href="#placemake">Let's Placemake</a></li>
+        <li><a href="#featured">Idea Seeds</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text fade-in">
+            <p class="hero-eyebrow" id="hero-eyebrow">Plant a Forest of Ideas</p>
+            <h1 id="hero-heading">Grow ideas into living systems of action.</h1>
+            <p id="hero-description">A concise description of what this organisation does, who it serves, and why it matters.</p>
+            <a class="btn" id="hero-cta" href="#featured">Explore the idea seeds</a>
+          </div>
+          <div class="hero-visual fade-in">
+            <img src="assets/hero-placeholder.svg" alt="" role="presentation">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What PAFOI Is -->
+    <section class="section" id="about">
+      <div class="container fade-in">
+        <h2 class="section-heading" id="about-heading">A place for ideas to take root.</h2>
+        <p class="about-content" id="about-content">This organisation works at the intersection of practice, community and long-term thinking. It brings together people, tools and processes to make complex work simpler over time.</p>
+      </div>
+    </section>
+
+    <!-- What We Grow -->
+    <section class="section" id="themes">
+      <div class="container fade-in">
+        <h2 class="section-heading" id="themes-heading">What we grow together.</h2>
+        <div class="grid grid--3col" id="themes-grid">
+          <!-- Cards populated by app.js from site-spec.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Placemake -->
+    <section class="section" id="placemake">
+      <div class="container fade-in">
+        <h2 class="section-heading" id="placemake-heading">Let's Placemake</h2>
+        <div class="placemake-inner">
+          <p id="placemake-content">Let's Placemake is PAFOI's outreach programme for bringing ideas into shared spaces, conversations and practical local action.</p>
+          <a class="btn btn-secondary" id="placemake-cta" href="#contact">See the programme</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Idea Seeds -->
+    <section class="section" id="featured">
+      <div class="container fade-in">
+        <h2 class="section-heading" id="featured-heading">Featured idea seeds</h2>
+        <div class="grid grid--3col" id="featured-grid">
+          <!-- Cards populated by app.js from site-spec.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Join, Collaborate or Host -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta-inner fade-in">
+          <h2 class="section-heading" id="cta-heading">Join, collaborate or host.</h2>
+          <p id="cta-description">A short invitation to learn more, collaborate, or start a conversation.</p>
+          <a class="btn" id="cta-button" href="#contact">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand"><strong id="footer-org">PAFOI</strong></span>
+        <span class="footer-description">Plant a Forest of Ideas is a platform for sharing and growing idea seeds into practical action.</span>
+        <span><span id="footer-contact-label">Contact</span>: <span id="footer-email">Contact details will be added before release.</span></span>
+        <span id="footer-copy">PAFOI — Plant a Forest of Ideas. Draft website content.</span>
+      </div>
+      <div id="local-preview-note" class="local-preview-note" hidden></div>
+    </div>
+  </footer>
+
+  <!-- Site data + main script -->
+  <script src="site-spec.json" type="application/json" id="site-data"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

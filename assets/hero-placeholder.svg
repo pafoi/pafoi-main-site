@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" width="320" height="240">
+  <rect width="320" height="240" rx="4" fill="#F7F3E8"/>
+  <rect x="20" y="20" width="280" height="200" rx="4" fill="#FFFDF8" stroke="#D9E2D2" stroke-width="1"/>
+  <!-- Organic growth forms: overlapping seed/root shapes -->
+  <ellipse cx="200" cy="100" rx="50" ry="36" fill="#155E3A" opacity="0.08"/>
+  <ellipse cx="220" cy="80" rx="30" ry="44" fill="#155E3A" opacity="0.06"/>
+  <circle cx="210" cy="90" r="20" fill="#155E3A" opacity="0.12"/>
+  <path d="M210 70 Q218 90 210 110 Q202 90 210 70Z" fill="#155E3A" opacity="0.18"/>
+  <path d="M195 95 Q210 78 225 95" stroke="#155E3A" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <path d="M190 105 Q210 85 230 105" stroke="#155E3A" stroke-width="1" fill="none" opacity="0.15"/>
+  <line x1="210" y1="110" x2="210" y2="140" stroke="#155E3A" stroke-width="1.5" opacity="0.2"/>
+  <line x1="200" y1="130" x2="210" y2="120" stroke="#155E3A" stroke-width="1" opacity="0.15"/>
+  <line x1="220" y1="128" x2="210" y2="118" stroke="#155E3A" stroke-width="1" opacity="0.15"/>
+  <!-- Text placeholder lines -->
+  <rect x="40" y="60" width="120" height="10" rx="2" fill="#B8D89A" opacity="0.6"/>
+  <rect x="40" y="80" width="80" height="6" rx="2" fill="#D9E2D2"/>
+  <rect x="40" y="96" width="100" height="6" rx="2" fill="#D9E2D2"/>
+  <rect x="40" y="140" width="140" height="5" rx="2" fill="#D9E2D2"/>
+  <rect x="40" y="154" width="100" height="5" rx="2" fill="#D9E2D2"/>
+  <rect x="40" y="168" width="60" height="5" rx="2" fill="#D9E2D2"/>
+  <!-- Small accent dot -->
+  <circle cx="50" cy="184" r="5" fill="#B8D89A" opacity="0.5"/>
+</svg>
